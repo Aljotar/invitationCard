@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Image } from "react-bootstrap";
+import Tadeo from "./utilities/images/Tadeo1.jpeg";
+import { CountdownTimer } from "./components/CountdownTimer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="Hola1"></div>
+      <div className="Hola2">
+        <Image src={Tadeo} />
+      </div>
+      <CountdownTimer />
     </div>
   );
 }
