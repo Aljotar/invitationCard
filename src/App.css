@@ -1,6 +1,48 @@
 .Hola1{
   height: 20vh;
+}
 
+.flower{
+  position: absolute;
+  opacity: 0.5;
+  height: 10rem;
+}
+
+.bautismo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  font-weight: 700;
+  background: linear-gradient(to right, #363634, #ffc400);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  margin: 0;
+}
+
+.Tadeo{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #363634, #ffc400);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+}
+
+.texto{
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #363634, #ffc400);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
 }
 .Hola2{
   height: 42vh;
@@ -18,7 +60,7 @@
 }
 
 .pito {
-  height: 34vh;
+  height: 38vh;
   font-size: 0.8rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -42,15 +84,24 @@
 }
 
 .gradientText{
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
   font-weight: 700;
-  text-transform: uppercase;
   background: linear-gradient(to right, #363634, #ffc400);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-
+.papis{
+  color: rgb(112, 110, 110);
+  font-size: 1rem;
+}
+.misPapis{
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  color: #bba14b;
+}
 

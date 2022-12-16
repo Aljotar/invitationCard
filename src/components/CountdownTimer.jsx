@@ -40,11 +40,13 @@ export const CountdownTimer = () => {
       clearInterval(interval.current);
     };
   });
-
+  
   return (
     <div>
-      <h2 className="gradientText text-center">11 de Febrero</h2>
-      <div className="pito d-flex justify-content-center pt-5">
+      <h2 className="gradientText text-center">11 de Febrero 2023</h2>
+      <h2 className="gradientText text-center">Parroquia del Inmaculado Corazón de María</h2>
+      <h2 className="gradientText text-center">17:00Hs</h2>
+      <div className="pito d-flex justify-content-center pt-3">
         <div className="text-center">
           <p className="mx-3">Dias: </p>
           <p>{timerDays}</p>
