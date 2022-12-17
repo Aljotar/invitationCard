@@ -59,7 +59,7 @@
     align-self: center;
 }
 
-.pito {
+.time {
   height: 38vh;
   font-size: 0.8rem;
   font-weight: 700;
@@ -71,7 +71,7 @@
   position: relative;
 }
 
-.pito::before{
+.time::before{
   content: 'dsadasdasddddddddddddddddddssssssssssssss';
   background-image: url(./utilities/images/flowes.jpg);
   background-size: cover;
@@ -85,7 +85,7 @@
 
 .gradientText{
   font-family: 'Dancing Script', cursive;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 700;
   background: linear-gradient(to right, #363634, #ffc400);
   -webkit-background-clip: text;
@@ -103,5 +103,27 @@
   font-weight: 700;
   margin-top: 1rem;
   color: #bba14b;
+}
+
+.accordion-button{
+  border: 0px !important;
+  border-radius: 0 !important;
+  color: #7e671e;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  font-size: 1.5rem;
+  width: 70%;
+  margin-left: auto;
+
+}.accordion{
+  --bs-accordion-border-color: white:var(--bs-accordion-border-color);
+  --bs-accordion-btn-icon:var(--bs-accordion-btn-icon)
+}
+.accordion-button:not(.collapsed){
+  background-color: #FFF;
+  color: #7e671e; 
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: none;
 }
 

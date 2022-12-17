@@ -1,4 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
+import { Button } from "react-bootstrap";
+import { AcordionLocation } from "./AcordionLocation";
 
 export const CountdownTimer = () => {
   const [timerDays, setTimerDays] = useState("00");
@@ -40,13 +42,24 @@ export const CountdownTimer = () => {
       clearInterval(interval.current);
     };
   });
-  
+
   return (
     <div>
-      <h2 className="gradientText text-center">11 de Febrero 2023</h2>
-      <h2 className="gradientText text-center">Parroquia del Inmaculado Corazón de María</h2>
-      <h2 className="gradientText text-center">17:00Hs</h2>
-      <div className="pito d-flex justify-content-center pt-3">
+      <div >
+        <h2 className="gradientText text-center">
+          Acompáñame a recibir el Sacramento del Bautismo el día
+        </h2>
+        <h2 className="gradientText text-center">11 de Febrero 2023 en</h2>
+        <h2 className="gradientText text-center">
+          {" "}
+          Parroquia del Inmaculado Corazón de María
+        </h2>
+        <h2 className="gradientText text-center">17:00Hs</h2>
+      </div>
+      <div className="text-center">
+        <AcordionLocation />
+      </div>
+      <div className="time d-flex justify-content-center pt-3">
         <div className="text-center">
           <p className="mx-3">Dias: </p>
           <p>{timerDays}</p>
