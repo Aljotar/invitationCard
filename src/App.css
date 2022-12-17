@@ -1,11 +1,11 @@
 .Hola1{
-  height: 20vh;
+  height: 25vh;
 }
 
 .flower{
   position: absolute;
-  opacity: 0.5;
   height: 10rem;
+  width: 99%;
 }
 
 .bautismo {
@@ -21,7 +21,7 @@
 }
 
 .Tadeo{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Dancing Script', cursive;
   font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
