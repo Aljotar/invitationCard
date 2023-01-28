@@ -45,7 +45,7 @@
   position: relative;
 }
 .Hola2{
-  height: 42vh;
+  height: 45vh;
   background-image: url(./utilities/images/Watercolor_green_leaves_frame_collection\(2\).jpg);
   background-size: cover;
   display: flex;
@@ -56,6 +56,7 @@
     border-radius: 50%;
     width: 10rem;
     height: 10rem;
+    margin-left: 1rem;
     align-self: center;
 }
 
@@ -74,8 +75,9 @@
 .time::before{
   content: 'dsadasdasddddddddddddddddddssssssssssssss';
   background-image: url(./utilities/images/flowes.jpg);
+  margin-top: 2rem;
   background-size: cover;
-  height: 10rem;
+  height: 12rem;
   width: auto;
   z-index: -1;
   position: absolute;
