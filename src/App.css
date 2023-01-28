@@ -60,7 +60,7 @@
 }
 
 .time {
-  height: 38vh;
+  height: 20vh;
   font-size: 0.8rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -114,6 +114,8 @@
   font-size: 1.5rem;
   width: 70%;
   margin-left: auto;
+  display: inline;
+  text-align: center;
 
 }.accordion{
   --bs-accordion-border-color: white:var(--bs-accordion-border-color);
@@ -125,5 +127,12 @@
 }
 .accordion-button:not(.collapsed)::after {
   background-image: none;
+}
+
+.btn{
+  background: linear-gradient(to right, #dadada, #f7bd00);
+  border: none;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.2rem;
 }
 

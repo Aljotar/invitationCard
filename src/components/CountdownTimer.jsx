@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Button } from "react-bootstrap";
 import { AcordionLocation } from "./AcordionLocation";
+import { ModalLocation } from "./ModalLocation";
 
 export const CountdownTimer = () => {
   const [timerDays, setTimerDays] = useState("00");
@@ -43,10 +44,12 @@ export const CountdownTimer = () => {
     };
   });
 
+  const [modalShow, setModalShow] = React.useState(false);
+
   return (
     <div>
       <div >
-        <h2 className="gradientText text-center">
+        <h2 className="gradientText text-center mt-3">
           Acompáñame a recibir el Sacramento del Bautismo el día
         </h2>
         <h2 className="gradientText text-center">11 de Febrero 2023 en</h2>
@@ -54,10 +57,14 @@ export const CountdownTimer = () => {
           {" "}
           Parroquia del Inmaculado Corazón de María
         </h2>
-        <h2 className="gradientText text-center">17:00Hs</h2>
+        <h2 className="gradientText text-center">18:00Hs</h2>
       </div>
       <div className="text-center">
-        <AcordionLocation />
+      <Button variant="primary" onClick={() => setModalShow(true)}>
+        Como llegar
+      </Button>
+        <ModalLocation show={modalShow}
+        onHide={() => setModalShow(false)}/>
       </div>
       <div className="time d-flex justify-content-center pt-3">
         <div className="text-center">

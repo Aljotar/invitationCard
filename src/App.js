@@ -20,13 +20,15 @@ function App() {
           Mis Papis: <span className="papis">Belen Gomez y Alvaro Jotar</span>
         </h3>
         <h3 className="misPapis">
-          Mis Padrinos <span className="papis">Fede y ...</span>
+          Mis Padrinos <span className="papis">Federico Gomez y Rosa Roldan</span>
         </h3>
       </div>
       <div className="Hola2">
-        <Image className="p-1" src={Tadeo} />
+        <Image className="mt-1" src={Tadeo} />
       </div>
+      
       <CountdownTimer />
+      <h3 className="bautismo text-center">Luego de la ceremonia te invito a festejar</h3>
     </div>
   );
 }
