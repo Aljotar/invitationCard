@@ -3,6 +3,7 @@ import { Image } from "react-bootstrap";
 import Tadeo from "./utilities/images/Tadeo1.jpeg";
 import flower from "./utilities/images/flower1.jpg"
 import { CountdownTimer } from "./components/CountdownTimer";
+import CarouselTadeo from "./components/CarouselTadeo";
 
 function App() {
   return (
@@ -26,7 +27,6 @@ function App() {
       <div className="Hola2">
         <Image className="mt-1" src={Tadeo} />
       </div>
-      
       <CountdownTimer />
       <br/>
       <br/>
