@@ -21,7 +21,7 @@ function App() {
           Mis Papis: <span className="papis">Belen Gomez y Alvaro Jotar</span>
         </h3>
         <h3 className="misPapis">
-          Mis Padrinos <span className="papis">Federico Gomez y Rosa Roldan</span>
+          Mis Padrinos <span className="papis">Rosa Roldan y Federico Gomez</span>
         </h3>
       </div>
       <div className="Hola2">
