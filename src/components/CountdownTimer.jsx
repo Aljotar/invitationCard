@@ -57,7 +57,7 @@ export const CountdownTimer = () => {
           {" "}
           Parroquia del Inmaculado Corazón de María
         </h2>
-        <h2 className="gradientText text-center">18:00Hs</h2>
+        <h2 className="gradientText text-center">17:00Hs</h2>
       </div>
       <div className="text-center">
       <Button variant="primary" onClick={() => setModalShow(true)}>
